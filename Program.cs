@@ -4,8 +4,9 @@ class Hello
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        string sNumber = "s26776";
         for (int i = 0; i < 3; i++) {
-            Console.WriteLine ("I love APBD!");
+            Console.WriteLine(sNumber + " loves APBD!");
         }
     }
 }
