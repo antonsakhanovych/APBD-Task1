@@ -5,8 +5,9 @@ class Hello
     {
         Console.WriteLine("Hello, World!");
         string sNumber = "s26776";
+        int age = 20;
         for (int i = 0; i < 3; i++) {
-            Console.WriteLine(sNumber + " loves APBD!");
+            Console.WriteLine(sNumber + " loves APBD! and " + sNumber + " is " + age + " years old." );
         }
     }
 }
