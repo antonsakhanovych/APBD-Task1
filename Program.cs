@@ -4,8 +4,8 @@ class Hello
     static double getAverage(int[] arr)
     {
         double sum = 0;
-        for (int i = 0; i < arr.Length; i++) {
-            sum += arr[i];
+        for (int k = 0; k < arr.Length; k++) {
+            sum += arr[k];
         }
         return sum/arr.Length;
     }
