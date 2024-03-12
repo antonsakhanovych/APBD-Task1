@@ -10,6 +10,17 @@ class Hello
         return sum/arr.Length;
     }
 
+    static int getMax(int[] arr)
+    {
+        int max = arr [0];
+        for (int i = 1; i < arr.Length; i++) {
+            if (max < arr[i]) {
+                max = arr [i];
+            }
+        }
+        return max;
+    }
+
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
@@ -23,5 +34,6 @@ class Hello
         Console.Write(String.Join(" ", numbers));
         Console.WriteLine(" ]");
         Console.WriteLine("Average: " + getAverage(numbers));
+        Console.WriteLine("Max: " + getMax(numbers));
     }
 }
