@@ -5,7 +5,7 @@ class Hello
     {
         double sum = 0;
         for (int i = 0; i < arr.Length; i++) {
-            sum += i;
+            sum += arr[i];
         }
         return sum/arr.Length;
     }
@@ -18,6 +18,10 @@ class Hello
         for (int i = 0; i < 3; i++) {
             Console.WriteLine(sNumber + " loves APBD! and " + sNumber + " is " + age + " years old." );
         }
-
+        int[] numbers = [1, 99, 2, 3, 1010, 5, 8, 10];
+        Console.Write("[ ");
+        Console.Write(String.Join(" ", numbers));
+        Console.WriteLine(" ]");
+        Console.WriteLine("Average: " + getAverage(numbers));
     }
 }
