@@ -4,10 +4,10 @@ class Hello
     static double getAverage(int[] arr)
     {
         double sum = 0;
-        for (int k = 0; k < arr.Length; k++) {
-            sum += arr[k];
+        for (int d = 0; d < arr.Length; d++) {
+            sum += arr[d];
         }
-        return sum/arr.Length;
+        return sum / arr.Length;
     }
 
     static int getMax(int[] arr)
